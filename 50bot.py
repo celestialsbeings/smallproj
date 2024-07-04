@@ -1,5 +1,7 @@
 from telegram import Update, Bot, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, CallbackQueryHandler, CallbackContext
+from keep_alive import keep_alive
+keep_alive()
 
 # Replace 'YOUR_API_TOKEN' with the token you received from BotFather
 API_TOKEN = '7373563578:AAF6KWWPUyIZUi-C1TYOIGT-sfWgjIGN7DQ'
